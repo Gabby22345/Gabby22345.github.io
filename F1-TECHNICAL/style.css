@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ccc ;
+    color:black ;
+    padding: 15px; ;
+    display:flex ;
+    align-items:center ;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    min-height: 80vh;
+}
+
+.sidebar{
+    width: 200px;
+    background-color: azure;
+    padding: 15px;
+}
+
+.sidebar a {
+display: block;
+margin-bottom: 10px;
+text-decoration: none;
+color:aliceblue;
+}
+
+.product  {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
