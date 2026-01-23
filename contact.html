@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Y.O.U Clothing</title>
+    <title>Contact Us | Y.O.U Clothing</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,31 +23,32 @@
         </nav>
 
         <main>
-            <h1>Featured Products</h1>
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> gabbyalpasan667@gmail.com</p>
+            <p><strong>Contact Number:</strong> 09663713233</p>
+            <p><strong>Location:</strong> Philippines</p>
 
-            <div class="product">
-                <h3>Sweatpants</h3>
-                <p>Comfortable casual and everyday use</p>
-                <p>₱ 799</p>
-            </div>
+            <h2>Send us a message</h2>
+            <form id="contactForm">
 
-            <div class="product">
-                <h3>Hoodie</h3>
-                <p>blah blah blah</p>
-                <p>₱ 999</p>
-            </div>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name"><br><br>
 
-            <div class="product">
-                <h3>Jorts</h3>
-                <p>blah blah blah</p>
-                <p>₱ 699</p>
-            </div>
+                <label for="message">Message:</label><br>
+                <textarea id="message"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+            <p id="response"></p>
         </main>
     </div>
 
     <footer>
         <p>© 2026 Y.O.U Clothing</p>
-        <p>Email: gabbyalpasan667@gmail.com | Contact No: 09663713233</p>
     </footer>
+
+    <script src="scriptt.js"></script>
 </body>
 </html>
