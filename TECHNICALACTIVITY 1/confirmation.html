@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Confirmation - Y.O.U Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="company logo" class="logo">
+        <h1>Y.O.U Clothing</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <a href="login.html">LOGIN</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="profile.html">PROFILE</a>
+            <a href="product.html">PRODUCT</a>
+            <a href="shoppingcart.html">SHOPPING CART</a>
+            <a href="payment.html">PAYMENT</a>
+            <a href="confirmation.html">CONFIRMATION</a>
+        </nav>
+
+        <main>
+            <h1>Order Confirmation</h1>
+            <div class="conf-container">
+                <div class="success-msg">
+                    <div style="font-size: 48px; margin-bottom: 10px;">✓</div>
+                    <h2>Payment Successful!</h2>
+                    <p>Your order has been confirmed and will be processed shortly.</p>
+                </div>
+
+                <div class="receipt">
+                    <div class="receipt-header">
+                        <h1>Y.O.U CLOTHING</h1>
+                        <p>Official E-Receipt</p>
+                    </div>
+
+                    <div style="text-align: center; margin-bottom: 20px;">
+                        <span class="status-badge">✓ CONFIRMED</span>
+                        <div class="trans-id">TXN: <span id="txn-id">2026-001</span></div>
+                    </div>
+
+                    <div class="receipt-sec">
+                        <h3>CUSTOMER INFORMATION</h3>
+                        <div class="rec-row"><span>Name:</span><span id="name">-</span></div>
+                        <div class="rec-row"><span>Email:</span><span id="email">-</span></div>
+                        <div class="rec-row"><span>Phone:</span><span id="phone">-</span></div>
+                        <div class="rec-row"><span>Order Date:</span><span id="date">-</span></div>
+                    </div>
+
+                    <div class="receipt-sec">
+                        <h3>DELIVERY ADDRESS</h3>
+                        <div class="rec-row"><span>Province:</span><span id="prov">-</span></div>
+                        <div class="rec-row"><span>Address:</span><span id="addr">-</span></div>
+                        <div class="rec-row"><span>Method:</span><span id="method">-</span></div>
+                        <div class="rec-row"><span>Est. Delivery:</span><span id="delivery">-</span></div>
+                    </div>
+
+                    <div class="receipt-sec">
+                        <h3>PAYMENT SUMMARY</h3>
+                        <div class="rec-row"><span>Subtotal:</span><span id="subtotal">P500.00</span></div>
+                        <div class="rec-row"><span>Shipping:</span><span id="shipping">P0.00</span></div>
+                        <div class="rec-row total"><span>Total:</span><span id="total">P500.00</span></div>
+                        <div class="rec-row" style="margin-top: 12px;"><span>Payment:</span><span id="payment">-</span></div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 2px solid #ddd; font-size: 12px; color: #666;">
+                        <p>Thank you for your purchase!</p>
+                        <p>Confirmation email sent to your email address. For inquiries: gabbyalpasan667@gmail.com | 09663713233</p>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn-print">🖨️ Print Receipt</button>
+                    <button class="btn-home">Back to Home</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2026 Y.O.U Clothing</p>
+        <p>Email: gabbyalpasan667@gmail.com | Contact No: 09663713233</p>
+    </footer>
+
+    
+</body>
+</html>

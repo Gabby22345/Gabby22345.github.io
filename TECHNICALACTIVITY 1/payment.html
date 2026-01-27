@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment & Delivery - Y.O.U Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="company logo" class="logo">
+        <h1>Y.O.U Clothing</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <a href="login.html">LOGIN</a>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="profile.html">PROFILE</a>
+            <a href="product.html">PRODUCT</a>
+            <a href="shoppingcart.html">SHOPPING CART</a>
+        </nav>
+
+        <main>
+            <h1>Payment & Delivery</h1>
+            <div class="payment-container">
+                <div class="order-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-item"><span>Subtotal (1 item)</span><span>P500.00</span></div>
+                    <div class="summary-item"><span>Shipping</span><span id="shipping-cost">P0.00</span></div>
+                    <div class="summary-total">Total: <span id="total-price">P500.00</span></div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Delivery Information</h2>
+                    <div class="address-form">
+                        <input type="text" placeholder="Full Name" id="fullName" required>
+                        <input type="email" placeholder="Email Address" id="email" required>
+                        <input type="tel" placeholder="Phone Number" id="phone" required>
+                        <input type="text" placeholder="Province" id="province" required>
+                        <textarea placeholder="Street Address, Building, House No." id="address" required></textarea>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Delivery Options</h2>
+                    <div class="delivery-options">
+                        <div class="delivery-option">
+                            <input type="radio" id="standard" name="delivery" value="standard" checked>
+                            <label for="standard"><span><strong>Standard</strong><div class="delivery-details">3-5 days</div></span></label>
+                        </div>
+                        <div class="delivery-option">
+                            <input type="radio" id="express" name="delivery" value="express">
+                            <label for="express"><span><strong>Express</strong><div class="delivery-details">1-2 days • +P150</div></span></label>
+                        </div>
+                        <div class="delivery-option">
+                            <input type="radio" id="same-day" name="delivery" value="same-day">
+                            <label for="same-day"><span><strong>Same Day</strong><div class="delivery-details">Same day • +P299</div></span></label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-section">
+                    <h2>Payment Method</h2>
+                    <div class="payment-options">
+                        <div class="payment-option">
+                            <input type="radio" id="credit-card" name="payment" value="credit-card" checked>
+                            <label for="credit-card"><div><div class="payment-icon">💳</div><strong>Card</strong></div></label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" id="gcash" name="payment" value="gcash">
+                            <label for="gcash"><div><div class="payment-icon">📱</div><strong>GCash</strong></div></label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" id="paypal" name="payment" value="paypal">
+                            <label for="paypal"><div><div class="payment-icon">🌐</div><strong>PayPal</strong></div></label>
+                        </div>
+                        <div class="payment-option">
+                            <input type="radio" id="cod" name="payment" value="cod">
+                            <label for="cod"><div><div class="payment-icon">🚚</div><strong>COD</strong></div></label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="button-group">
+                    <button class="btn-back" >Back to Cart</button>
+                    <button class="btn-confirm">Proceed to Confirmation</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2026 Y.O.U Clothing</p>
+        <p>Email: gabbyalpasan667@gmail.com | Contact No: 09663713233</p>
+    </footer>
+</body>
+</html>
